@@ -14,6 +14,7 @@ body {
 html, body, #home {
     border: 1px solid blue;
     height: 100%;
+    overflow-x: hidden;
 }
 .navbar-transparente {
     padding: 15px 0px;
@@ -105,4 +106,45 @@ h1 {
 .btn-branco:hover {
     background: #ffff;
     color: #000;
+}
+#servicos {
+    background: #ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -.04em;
+}
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -.04em;
+}
+
+#servicos h2, h3 {
+    color: #3f3f3f;
+}
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffff;
+}
+#recursos h2 {
+    color: #ffff;
+}
+#recursos h3 {
+    color: #9bf0e1;
+}
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 50px;
 }
