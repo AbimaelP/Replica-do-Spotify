@@ -40,10 +40,20 @@ h1 {
     color: #ffff;
 }
 
+@media (max-width: 399.98px) {
+    h1 {
+        font-size: 2em;
+    }
+    .btn-custom {
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+}
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media ((min-width:400px) and (max-width: 575.98px)) {
     .btn-custom {
         margin: 10px 15px;
+        padding: 10px 12px;
     }
 }
 
@@ -56,14 +66,15 @@ h1 {
         margin: 10px 15px;
     }
 }
-
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
     }
     .btn-custom {
-        margin: 10px 14px;
+        font-size: 18px;
+        margin: 10px 10px;
+        padding: 10px 12px;
     }
 }
 
